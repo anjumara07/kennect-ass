@@ -1,0 +1,13 @@
+JWT :- JSON Web Token
+
+JWT is standard way for two parties to communicate securly , commonly used for Authentication.
+Authentication takes username and password and check wheather the username and password are correct or not.
+And authorization making sure that user sent the request to the server is the same user that actually logged in during the authentication process.
+
+Benefits of JWT are :- 
+
+1) No session to manage(stateless) : The JWT is a self contained token which has authentication information, expire time information and other user defined claims digitally signed.
+
+2) No cookies required, so its very mobile friendly.
+
+3) Good Performance : It reduced the network round trip time.
